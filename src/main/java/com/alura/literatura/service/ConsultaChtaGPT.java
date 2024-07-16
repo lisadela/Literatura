@@ -7,7 +7,7 @@ public class ConsultaChtaGPT {
 
 
     public static String obtenerTraduccion(String texto) {
-        OpenAiService service = new OpenAiService("sk-proj-xJQLxQAhmfafOyanCo2rT3BlbkFJAotPV5GK4qUnr2T2LCk6");
+        OpenAiService service = new OpenAiService("");
 
 
         CompletionRequest requisicion = CompletionRequest.builder()
